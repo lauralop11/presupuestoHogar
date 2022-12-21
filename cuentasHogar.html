@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylecuentas.css">
+</head>
+<body>
+    <div>
+        <h2>Cuentas de la casa</h2>
+    </div>
+     <form id="datosCuentas">
+        <div>
+            <h4>Ingresos</h4>
+            <label for="ingreso">
+            Ingresos
+            </label>
+            <input type="number" id="ingreso">  
+        </div>
+        <div>
+            <h4>Gastos</h4>
+            <div>
+                <label for="arriendo">Arriendo</label>
+                <input type="text" id="arriendo" value="1250">
+            </div>
+            <div>
+                <label for="hydroQuebec">Hydro-Quebec</label>
+                <input type="text" id="hydroQuebec" value="87">
+            </div>
+            <div>
+                <label for="seguroCasa">Seguro Casa</label>
+                <input type="text" id="seguroCasa" value="35.69">
+            </div>
+            <div>
+                <label for="SeguroCarro">Seguro carro</label>
+                <input type="text" id="SeguroCarro" value="92.97">
+            </div>
+            <div>
+                <label for="cuotaCarro">Cuota carro</label>
+                <input type="text" id="cuotaCarro" value="258">
+            </div>
+            <div>
+                <h5>Tarjetas de credito</h5>
+                <div>
+                    <label for="cibc">CIBC Costco:</label>
+                    <select name="cibcTarjeta" id="cibc">
+                        <option value="mercado" >Mercado</option>
+                        <option value="gasolina">Gasolina</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                    <input type="number" id="valorTarjetaCostco">
+                </div>
+                <div>
+                    <label for="dejardins">Dejardins:</label>
+                    <select name="dejardinsTarjeta" id="dejardins">
+                        <option value="internet" selected>Internet</option>
+                        <option value="planDatos">Plan de datos</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                    <input type="number" id="valorTarjetaDejardins">
+                </div>
+            </div> 
+            
+        </div> 
+     </form>
+    
+    <script src="script/presupuestoHogar.js"></script>
+</body>
+</html>
