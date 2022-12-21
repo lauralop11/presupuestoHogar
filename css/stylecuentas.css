@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(230, 230, 230, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-style: italic;
+    color: cornflowerblue;
+}
+form {
+    border: 0.4rem double;
+    border-color: cornflowerblue;
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+    width: 40%;
+}
+div {
+    padding: 0.5rem;
+}
+select {
+    margin: 0 0.4rem;
+}
+input {
+    width: 3rem;
+}
